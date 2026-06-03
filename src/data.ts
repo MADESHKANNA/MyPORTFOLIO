@@ -2,7 +2,7 @@ import { Project, Experience, Education, Certification, Achievement } from './ty
 
 export const portfolioOwner = {
   name: 'Madesh Kanna S',
-  title: 'Full Stack Developer & AI/ML Engineer',
+  title: 'Full Stack Developer and Data Scientist',
   tagline: 'Building innovative solutions at the intersection of web development, data science, and cloud technologies.',
   about: 'I am a passionate Computer Science and Engineering student with an enthusiasm for learning and developing new technologies. With a CGPA of 8.76, I specialize in full-stack applications and data-driven predictive modeling. My internships in Full Stack Development and Data Science have equipped me with high proficiency in React, Node.js, Python, TensorFlow, and cloud architectures.',
   email: 'madeshkanna2005@gmail.com',

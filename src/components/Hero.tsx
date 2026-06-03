@@ -53,12 +53,20 @@ export default function Hero() {
               className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-tight"
               id="hero-title"
             >
-              Computer Science &{' '}
+              Computer Science and{' '}
               <span className="bg-gradient-to-r from-emerald-400 via-emerald-300 to-teal-400 bg-clip-text text-transparent">
-                Full Stack
-              </span>{' '}
-              Developer
+                Engineering Student
+              </span>
             </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.25 }}
+              className="text-base sm:text-lg font-mono text-emerald-400 uppercase tracking-wider font-semibold"
+              id="hero-subtitle"
+            >
+              Full Stack Developer and Data Scientist
+            </motion.p>
           </div>
 
           <motion.p

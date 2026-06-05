@@ -157,6 +157,28 @@ export default function GithubStats() {
             </div>
           </div>
 
+          {/* GitHub Yearly Contribution Contributors Stats */}
+          <div className="glass-panel rounded-xl border border-white/10 overflow-hidden shadow-lg hover:border-emerald-500/20 transition-all flex flex-col justify-between">
+            <div className="p-4 bg-slate-900/60 border-b border-white/5 flex items-center justify-between">
+              <span className="text-xs font-mono text-slate-400 uppercase tracking-wider flex items-center space-x-2">
+                <BarChart2 size={13} className="text-emerald-400" />
+                <span>Collaborator Stats & History</span>
+              </span>
+              <span className="text-[9px] font-mono bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded">HISTORIC</span>
+            </div>
+            <div className="p-6 flex items-center justify-center bg-slate-950/40 min-h-[190px]">
+              <img
+                src={`https://github-contributor-stats.vercel.app/api?username=${portfolioOwner.github}&limit=5&theme=dark&combine_all_yearly_contributions=true`}
+                alt="Madesh Kanna's Contributors stats"
+                referrerPolicy="no-referrer"
+                className="w-full h-auto rounded-lg object-contain max-h-[175px] github-widget-img selection:bg-transparent"
+              />
+            </div>
+            <div className="p-3 border-t border-white/5 bg-slate-900/30 text-center text-[10px] text-slate-500 font-mono">
+              Tracking yearly repository participation and releases contributions
+            </div>
+          </div>
+
         </div>
 
       </div>
